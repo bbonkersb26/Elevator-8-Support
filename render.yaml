@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: elevator-8-support
+    runtime: static
+    buildCommand: ""
+    staticPublishPath: .
+    autoDeployTrigger: commit
